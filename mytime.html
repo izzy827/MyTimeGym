@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTime Gym - Seize Every Second</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container logo-section">
+            <!-- Logo -->
+            <img src="unnamed.png" alt="MyTime Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li> <!-- Home now correctly links to #home -->
+                <li><a href="#services">Gym Services</a></li>
+                <li><a href="#childcare">Childcare</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home"> <!-- Ensure the Home section has an id="home" -->
+        <div class="container">
+            <h2>Welcome to MyTime Gym</h2>
+            <p>Seize every second of your fitness journey! We offer top-notch fitness equipment, expert trainers, and dedicated childcare services to give you the best workout experience.</p>
+            <button onclick="scrollToSection('services')">Explore Services</button>
+        </div>
+    </section>
+
+    <!-- Gym Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Gym Services</h2>
+            <ul>
+                <li>Personal Training</li>
+                <li>Group Fitness Classes</li>
+                <li>State-of-the-Art Equipment</li>
+                <li>Yoga and Pilates</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Childcare Section -->
+    <section id="childcare">
+        <div class="container">
+            <h2>Childcare Services</h2>
+            <p>We offer safe and fun childcare services while you enjoy your workout. Our trained staff will take care of your children in a playful environment.</p>
+            <ul>
+                <li>Play Area</li>
+                <li>Educational Games</li>
+                <li>Certified Caregivers</li>
+                <li>Open for kids aged 1 to 12</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions? Get in touch with us today!</p>
+            <p>Email: info@mytimegym.com | Phone: (123) 456-7890</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MyTime Gym. All rights reserved. Seize Every Second!</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
